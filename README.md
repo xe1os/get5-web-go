@@ -54,7 +54,7 @@ API Server will send rcon command to load match config( ``get5_loadmatch_url <we
 - ``git clone https://github.com/FlowingSPDG/get5-web-go.git $GOPATH/src/github.com/FlowingSPDG/get5-web-go`` (you can fork your own)  
 - ``cd $GOPATH/src/github.com/FlowingSPDG/get5-web-go && make deps``
 - You're good to GO! edit each `.go` files to fix/add something nice!
-- You can test your server by ``go run ./main.go``,and build them by ``make``.You may get binary files in ``./build``.
+- You can test your server by ``cd ./server/ && go run ./main.go``,and build them by ``make``.You may get binary files in ``./build``.
 - To test Vue rendering,``cd ./web/ && yarn run serve`` and open http://localhost:8081/# by your browser.  
 
 
